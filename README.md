@@ -10,7 +10,7 @@ The purpose of this project was to use the collected data and create a hypotheti
 ### Deliverable 1: Retrieve Weather Data
 There were three parts to this project, for deliverable 1, I created a Pandas Data Frame with different cities using the np.random.uniform function to generate a new set of 2,000 random latitudes and 2,000 longitudes. I then used the citipy module to get the nearest city for each latitude and longitude combination. I then used my OpenWeatherMap's API key to make an API call and gather the information needed to make the DataFrame in Figure1. 
 
-#### *Figure 1
+#### *Figure 1*
 ![Alt text](Weather_Database/DataFrame.png)
 
 I then exported the DataFrame as a csv file. 
